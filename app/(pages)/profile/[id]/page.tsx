@@ -14,7 +14,7 @@ const page = () => {
   useEffect(() => {
     getUser();
   });
-  return <>{user ? <div>page: {user['name']}</div> : <div>No user found.</div>}</>;
+  return <>{user ? <div>pageasdasd: {user['name']}</div> : <div>No user found.</div>}</>;
 };
 
 export default page;
